@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		495A5CA4198EC100007E5502 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495A5CA3198EC100007E5502 /* Foundation.framework */; };
+		495A5CA6198EC100007E5502 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495A5CA5198EC100007E5502 /* CoreGraphics.framework */; };
+		495A5CA8198EC100007E5502 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495A5CA7198EC100007E5502 /* UIKit.framework */; };
+		495A5CAE198EC100007E5502 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 495A5CAC198EC100007E5502 /* InfoPlist.strings */; };
+		495A5CB0198EC100007E5502 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 495A5CAF198EC100007E5502 /* main.m */; };
+		495A5CB4198EC100007E5502 /* StellarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 495A5CB3198EC100007E5502 /* StellarAppDelegate.m */; };
+		495A5CB7198EC100007E5502 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495A5CB5198EC100007E5502 /* Main.storyboard */; };
+		495A5CBA198EC100007E5502 /* StellarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 495A5CB9198EC100007E5502 /* StellarViewController.m */; };
+		495A5CBC198EC100007E5502 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 495A5CBB198EC100007E5502 /* Images.xcassets */; };
+		495A5CC3198EC100007E5502 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495A5CC2198EC100007E5502 /* XCTest.framework */; };
+		495A5CC4198EC100007E5502 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495A5CA3198EC100007E5502 /* Foundation.framework */; };
+		495A5CC5198EC100007E5502 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495A5CA7198EC100007E5502 /* UIKit.framework */; };
+		495A5CCD198EC100007E5502 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 495A5CCB198EC100007E5502 /* InfoPlist.strings */; };
+		495A5CCF198EC100007E5502 /* StellarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 495A5CCE198EC100007E5502 /* StellarTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		495A5CC6198EC100007E5502 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 495A5C98198EC100007E5502 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 495A5C9F198EC100007E5502;
+			remoteInfo = Stellar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		495A5CA0198EC100007E5502 /* Stellar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stellar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		495A5CA3198EC100007E5502 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		495A5CA5198EC100007E5502 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		495A5CA7198EC100007E5502 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		495A5CAB198EC100007E5502 /* Stellar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Stellar-Info.plist"; sourceTree = "<group>"; };
+		495A5CAD198EC100007E5502 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		495A5CAF198EC100007E5502 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		495A5CB1198EC100007E5502 /* Stellar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stellar-Prefix.pch"; sourceTree = "<group>"; };
+		495A5CB2198EC100007E5502 /* StellarAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StellarAppDelegate.h; sourceTree = "<group>"; };
+		495A5CB3198EC100007E5502 /* StellarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StellarAppDelegate.m; sourceTree = "<group>"; };
+		495A5CB6198EC100007E5502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		495A5CB8198EC100007E5502 /* StellarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StellarViewController.h; sourceTree = "<group>"; };
+		495A5CB9198EC100007E5502 /* StellarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StellarViewController.m; sourceTree = "<group>"; };
+		495A5CBB198EC100007E5502 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		495A5CC1198EC100007E5502 /* StellarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StellarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		495A5CC2198EC100007E5502 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		495A5CCA198EC100007E5502 /* StellarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StellarTests-Info.plist"; sourceTree = "<group>"; };
+		495A5CCC198EC100007E5502 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		495A5CCE198EC100007E5502 /* StellarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StellarTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		495A5C9D198EC100007E5502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495A5CA6198EC100007E5502 /* CoreGraphics.framework in Frameworks */,
+				495A5CA8198EC100007E5502 /* UIKit.framework in Frameworks */,
+				495A5CA4198EC100007E5502 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495A5CBE198EC100007E5502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495A5CC3198EC100007E5502 /* XCTest.framework in Frameworks */,
+				495A5CC5198EC100007E5502 /* UIKit.framework in Frameworks */,
+				495A5CC4198EC100007E5502 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		495A5C97198EC100007E5502 = {
+			isa = PBXGroup;
+			children = (
+				495A5CA9198EC100007E5502 /* Stellar */,
+				495A5CC8198EC100007E5502 /* StellarTests */,
+				495A5CA2198EC100007E5502 /* Frameworks */,
+				495A5CA1198EC100007E5502 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		495A5CA1198EC100007E5502 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				495A5CA0198EC100007E5502 /* Stellar.app */,
+				495A5CC1198EC100007E5502 /* StellarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		495A5CA2198EC100007E5502 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				495A5CA3198EC100007E5502 /* Foundation.framework */,
+				495A5CA5198EC100007E5502 /* CoreGraphics.framework */,
+				495A5CA7198EC100007E5502 /* UIKit.framework */,
+				495A5CC2198EC100007E5502 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		495A5CA9198EC100007E5502 /* Stellar */ = {
+			isa = PBXGroup;
+			children = (
+				495A5CB2198EC100007E5502 /* StellarAppDelegate.h */,
+				495A5CB3198EC100007E5502 /* StellarAppDelegate.m */,
+				495A5CB5198EC100007E5502 /* Main.storyboard */,
+				495A5CB8198EC100007E5502 /* StellarViewController.h */,
+				495A5CB9198EC100007E5502 /* StellarViewController.m */,
+				495A5CBB198EC100007E5502 /* Images.xcassets */,
+				495A5CAA198EC100007E5502 /* Supporting Files */,
+			);
+			path = Stellar;
+			sourceTree = "<group>";
+		};
+		495A5CAA198EC100007E5502 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				495A5CAB198EC100007E5502 /* Stellar-Info.plist */,
+				495A5CAC198EC100007E5502 /* InfoPlist.strings */,
+				495A5CAF198EC100007E5502 /* main.m */,
+				495A5CB1198EC100007E5502 /* Stellar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		495A5CC8198EC100007E5502 /* StellarTests */ = {
+			isa = PBXGroup;
+			children = (
+				495A5CCE198EC100007E5502 /* StellarTests.m */,
+				495A5CC9198EC100007E5502 /* Supporting Files */,
+			);
+			path = StellarTests;
+			sourceTree = "<group>";
+		};
+		495A5CC9198EC100007E5502 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				495A5CCA198EC100007E5502 /* StellarTests-Info.plist */,
+				495A5CCB198EC100007E5502 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		495A5C9F198EC100007E5502 /* Stellar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 495A5CD2198EC100007E5502 /* Build configuration list for PBXNativeTarget "Stellar" */;
+			buildPhases = (
+				495A5C9C198EC100007E5502 /* Sources */,
+				495A5C9D198EC100007E5502 /* Frameworks */,
+				495A5C9E198EC100007E5502 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stellar;
+			productName = Stellar;
+			productReference = 495A5CA0198EC100007E5502 /* Stellar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		495A5CC0198EC100007E5502 /* StellarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 495A5CD5198EC100007E5502 /* Build configuration list for PBXNativeTarget "StellarTests" */;
+			buildPhases = (
+				495A5CBD198EC100007E5502 /* Sources */,
+				495A5CBE198EC100007E5502 /* Frameworks */,
+				495A5CBF198EC100007E5502 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				495A5CC7198EC100007E5502 /* PBXTargetDependency */,
+			);
+			name = StellarTests;
+			productName = StellarTests;
+			productReference = 495A5CC1198EC100007E5502 /* StellarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		495A5C98198EC100007E5502 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Stellar;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = rebyn;
+				TargetAttributes = {
+					495A5CC0198EC100007E5502 = {
+						TestTargetID = 495A5C9F198EC100007E5502;
+					};
+				};
+			};
+			buildConfigurationList = 495A5C9B198EC100007E5502 /* Build configuration list for PBXProject "Stellar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 495A5C97198EC100007E5502;
+			productRefGroup = 495A5CA1198EC100007E5502 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				495A5C9F198EC100007E5502 /* Stellar */,
+				495A5CC0198EC100007E5502 /* StellarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		495A5C9E198EC100007E5502 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495A5CBC198EC100007E5502 /* Images.xcassets in Resources */,
+				495A5CAE198EC100007E5502 /* InfoPlist.strings in Resources */,
+				495A5CB7198EC100007E5502 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495A5CBF198EC100007E5502 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495A5CCD198EC100007E5502 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		495A5C9C198EC100007E5502 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495A5CB4198EC100007E5502 /* StellarAppDelegate.m in Sources */,
+				495A5CBA198EC100007E5502 /* StellarViewController.m in Sources */,
+				495A5CB0198EC100007E5502 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495A5CBD198EC100007E5502 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495A5CCF198EC100007E5502 /* StellarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		495A5CC7198EC100007E5502 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 495A5C9F198EC100007E5502 /* Stellar */;
+			targetProxy = 495A5CC6198EC100007E5502 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		495A5CAC198EC100007E5502 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				495A5CAD198EC100007E5502 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		495A5CB5198EC100007E5502 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				495A5CB6198EC100007E5502 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		495A5CCB198EC100007E5502 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				495A5CCC198EC100007E5502 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		495A5CD0198EC100007E5502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		495A5CD1198EC100007E5502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		495A5CD3198EC100007E5502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stellar/Stellar-Prefix.pch";
+				INFOPLIST_FILE = "Stellar/Stellar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		495A5CD4198EC100007E5502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stellar/Stellar-Prefix.pch";
+				INFOPLIST_FILE = "Stellar/Stellar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		495A5CD6198EC100007E5502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Stellar.app/Stellar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stellar/Stellar-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "StellarTests/StellarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		495A5CD7198EC100007E5502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Stellar.app/Stellar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stellar/Stellar-Prefix.pch";
+				INFOPLIST_FILE = "StellarTests/StellarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		495A5C9B198EC100007E5502 /* Build configuration list for PBXProject "Stellar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495A5CD0198EC100007E5502 /* Debug */,
+				495A5CD1198EC100007E5502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		495A5CD2198EC100007E5502 /* Build configuration list for PBXNativeTarget "Stellar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495A5CD3198EC100007E5502 /* Debug */,
+				495A5CD4198EC100007E5502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		495A5CD5198EC100007E5502 /* Build configuration list for PBXNativeTarget "StellarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495A5CD6198EC100007E5502 /* Debug */,
+				495A5CD7198EC100007E5502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 495A5C98198EC100007E5502 /* Project object */;
+}
