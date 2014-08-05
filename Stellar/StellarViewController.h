@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface StellarViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *stellarBalance;
+@property (strong, nonatomic) IBOutlet UIButton *receiveButton;
+@property (strong, nonatomic) IBOutlet UIButton *sendButton;
+@property (strong, nonatomic) IBOutlet UIView *backgroundView;
+@property (strong, nonatomic) IBOutlet UIView *currentBalanceBackgroundView;
 
 @end

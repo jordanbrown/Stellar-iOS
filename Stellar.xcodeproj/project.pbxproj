@@ -21,6 +21,7 @@
 		495A5CC5198EC100007E5502 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495A5CA7198EC100007E5502 /* UIKit.framework */; };
 		495A5CCD198EC100007E5502 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 495A5CCB198EC100007E5502 /* InfoPlist.strings */; };
 		495A5CCF198EC100007E5502 /* StellarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 495A5CCE198EC100007E5502 /* StellarTests.m */; };
+		495A5CDB198EC394007E5502 /* StellarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 495A5CDA198EC394007E5502 /* StellarButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		495A5CCA198EC100007E5502 /* StellarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StellarTests-Info.plist"; sourceTree = "<group>"; };
 		495A5CCC198EC100007E5502 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		495A5CCE198EC100007E5502 /* StellarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StellarTests.m; sourceTree = "<group>"; };
+		495A5CD9198EC394007E5502 /* StellarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StellarButton.h; sourceTree = "<group>"; };
+		495A5CDA198EC394007E5502 /* StellarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StellarButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 		495A5CA9198EC100007E5502 /* Stellar */ = {
 			isa = PBXGroup;
 			children = (
+				495A5CD8198EC370007E5502 /* Formats */,
 				495A5CB2198EC100007E5502 /* StellarAppDelegate.h */,
 				495A5CB3198EC100007E5502 /* StellarAppDelegate.m */,
 				495A5CB5198EC100007E5502 /* Main.storyboard */,
@@ -150,6 +154,15 @@
 				495A5CCB198EC100007E5502 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		495A5CD8198EC370007E5502 /* Formats */ = {
+			isa = PBXGroup;
+			children = (
+				495A5CD9198EC394007E5502 /* StellarButton.h */,
+				495A5CDA198EC394007E5502 /* StellarButton.m */,
+			);
+			name = Formats;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				495A5CB4198EC100007E5502 /* StellarAppDelegate.m in Sources */,
+				495A5CDB198EC394007E5502 /* StellarButton.m in Sources */,
 				495A5CBA198EC100007E5502 /* StellarViewController.m in Sources */,
 				495A5CB0198EC100007E5502 /* main.m in Sources */,
 			);
@@ -380,6 +394,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Stellar/Stellar-Prefix.pch";
 				INFOPLIST_FILE = "Stellar/Stellar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,6 +408,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Stellar/Stellar-Prefix.pch";
 				INFOPLIST_FILE = "Stellar/Stellar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
