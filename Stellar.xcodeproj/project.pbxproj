@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4906067D1998E12F00EE6DE2 /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4906067C1998E12F00EE6DE2 /* loginViewController.m */; };
+		490606801998E5D900EE6DE2 /* MotherfuckaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4906067F1998E5D900EE6DE2 /* MotherfuckaViewController.m */; };
 		495A5CA4198EC100007E5502 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495A5CA3198EC100007E5502 /* Foundation.framework */; };
 		495A5CA6198EC100007E5502 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495A5CA5198EC100007E5502 /* CoreGraphics.framework */; };
 		495A5CA8198EC100007E5502 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495A5CA7198EC100007E5502 /* UIKit.framework */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4906067B1998E12F00EE6DE2 /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
+		4906067C1998E12F00EE6DE2 /* loginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
+		4906067E1998E5D900EE6DE2 /* MotherfuckaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotherfuckaViewController.h; sourceTree = "<group>"; };
+		4906067F1998E5D900EE6DE2 /* MotherfuckaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotherfuckaViewController.m; sourceTree = "<group>"; };
 		495A5CA0198EC100007E5502 /* Stellar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stellar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		495A5CA3198EC100007E5502 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		495A5CA5198EC100007E5502 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -85,6 +91,8 @@
 		495A5C97198EC100007E5502 = {
 			isa = PBXGroup;
 			children = (
+				4906067B1998E12F00EE6DE2 /* loginViewController.h */,
+				4906067C1998E12F00EE6DE2 /* loginViewController.m */,
 				495A5CA9198EC100007E5502 /* Stellar */,
 				495A5CC8198EC100007E5502 /* StellarTests */,
 				495A5CA2198EC100007E5502 /* Frameworks */,
@@ -123,6 +131,8 @@
 				495A5CB9198EC100007E5502 /* StellarViewController.m */,
 				495A5CBB198EC100007E5502 /* Images.xcassets */,
 				495A5CAA198EC100007E5502 /* Supporting Files */,
+				4906067E1998E5D900EE6DE2 /* MotherfuckaViewController.h */,
+				4906067F1998E5D900EE6DE2 /* MotherfuckaViewController.m */,
 			);
 			path = Stellar;
 			sourceTree = "<group>";
@@ -264,8 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				495A5CB4198EC100007E5502 /* StellarAppDelegate.m in Sources */,
+				4906067D1998E12F00EE6DE2 /* loginViewController.m in Sources */,
 				495A5CDB198EC394007E5502 /* StellarButton.m in Sources */,
 				495A5CBA198EC100007E5502 /* StellarViewController.m in Sources */,
+				490606801998E5D900EE6DE2 /* MotherfuckaViewController.m in Sources */,
 				495A5CB0198EC100007E5502 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,6 +485,7 @@
 				495A5CD4198EC100007E5502 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		495A5CD5198EC100007E5502 /* Build configuration list for PBXNativeTarget "StellarTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +494,7 @@
 				495A5CD7198EC100007E5502 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

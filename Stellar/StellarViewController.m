@@ -17,7 +17,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	self.stellarBalance.textColor = [UIColor colorWithRed:0.035 green:0.71 blue:0.898 alpha:1];
+    NSUserDefaults *auth = [NSUserDefaults standardUserDefaults];
+    self.stellarBalance.textColor = [UIColor colorWithRed:0.035 green:0.71 blue:0.898 alpha:1];
     self.backgroundView.backgroundColor = [UIColor colorWithRed:0.933 green:0.933 blue:0.933 alpha:1]; /*#eeeeee*/
     //self.currentBalanceBackgroundView.layer.borderColor = [UIColor lightGrayColor].CGColor;
     //self.currentBalanceBackgroundView.layer.borderWidth = 1.0;
