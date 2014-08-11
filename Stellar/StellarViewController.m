@@ -7,6 +7,8 @@
 //
 
 #import "StellarViewController.h"
+#import "StellarNetworkEngine.h"
+#import "MKNetworkOperation.h"
 
 @interface StellarViewController ()
 
@@ -39,6 +41,16 @@
     [[self.sendButton layer] setBorderWidth:0.0f];
     [[self.sendButton layer] setCornerRadius:5];
     [[self.sendButton layer] setBackgroundColor:[UIColor colorWithRed:0.035 green:0.71 blue:0.898 alpha:1].CGColor];
+    
+    StellarNetworkEngine *engine = [[StellarNetworkEngine alloc] initWithHostName:@"live.stellar.org:9002"];
+    
+    [engine fetchUserBalance:[auth objectForKey:@"token"]
+                                    completionHandler:^(double rate) {
+                                        NSLog(@"%f", rate);
+                                    } errorHandler:^(NSError *error) {
+                                        NSLog(@"%@", error);
+        
+    }];
 }
 
 - (void)didReceiveMemoryWarning
